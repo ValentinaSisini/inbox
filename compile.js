@@ -9,4 +9,3 @@ const source = fs.readFileSync(inboxPath, "utf8");
 
 // Compiles the source code -> 1 contract -> access Inbox property
 module.exports = solc.compile(source, 1).contracts[":Inbox"];
-//console.log(solc.compile(source, 1));
